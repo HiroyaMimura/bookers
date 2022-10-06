@@ -9,15 +9,15 @@
 <% end %>
 
 <%= form_with model:@book, url: update_list_path(@book.id), method: :patch do |f| %>
-<div>Title</div>
-  <%= f.text_field:title %>
-<div>Body</div>
-  <%= f.text_area:body %>
+  <div class="edit">Title</div>
+  <div class="edit"><%= f.text_field:title %></div>
+  <div class="edit">Body</div>
+  <div class="edit"><%= f.text_area:body %></div>
 
-  <%= f.submit'Update Book' %>
+  <div class="update"><%= f.submit'Update Book' %></div>
 
   <% end %>
 
-<%= link_to "Show",book_path(@book.id) %>
+  <span class="menu1"><%= link_to "Show",book_path(@book.id) %></span>
 
   <%= link_to "Back","/books" %>

@@ -20,7 +20,62 @@
   box-sizing: border-box;
 }
 
+.top {
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+
+.start {
+  margin-left: 45px;
+}
+
 .message {
   margin-bottom: 10px;
   color: green;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+table {
+  margin-left: 30px;
+}
+
+.title {
+  padding-left: 80px;
+  padding-right:  80px;
+}
+
+.body {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h2 {
+  margin: 20px;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.show {
+  margin: 30px;
+}
+
+.menu1 {
+  padding-left: 15px;
+  padding-right: 8px;
+  border-right: 2px solid black;
+}
+
+.edit {
+  margin-left: 20px;
+}
+
+.update {
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
